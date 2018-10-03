@@ -14,7 +14,7 @@
     {
         "id": 3,
     "name": "HTML",
-    "image": "https://en.wikipedia.org/wiki/HTML#/media/File:HTML5_logo_and_wordmark.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
     "count": 0
     },
     {
@@ -32,13 +32,13 @@
     {
         "id": 6,
     "name": "MongoDB",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/45/MongoDB-Logo.svg",
     "count": 0
     },
     {
         "id": 7,
     "name": "express.js",
-    "image": "https://en.wikipedia.org/wiki/Express.js#/media/File:Expressjs.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
     "count": 0
     },
     {
@@ -50,7 +50,7 @@
     {
         "id": 9,
     "name": "jQuery",
-    "image": "https://en.wikipedia.org/wiki/JQuery#/media/File:JQuery_logo.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg",
     "count": 0
     },
     {
