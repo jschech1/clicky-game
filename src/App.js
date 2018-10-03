@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
@@ -49,7 +49,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}>Play The Cool Computer Coding Clicky Game! </Header>
+        <Header score={this.state.score} highscore={this.state.highscore}><strong>Play The Cool Computer Coding Clicky Game!</strong></Header>
         {this.state.cards.map(card => (
           <Card
             clickCount={this.clickCount}
