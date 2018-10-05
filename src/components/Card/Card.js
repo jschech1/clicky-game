@@ -18,7 +18,7 @@ const styles ={
         background: "white",
         height: 100,
         width: 220,
-        marginRight: "5%",
+        marginRight: "4%",
         padding: 10
     }
 }
