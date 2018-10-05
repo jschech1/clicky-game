@@ -5,7 +5,8 @@ import Background from "./Images/coding-background.png";
 
 const styles = {
     wrapper: {
-       backgroundImage: `url(${Background})`
+       backgroundImage: `url(${Background})`,
+       height: "100%"
     }
 }
 
