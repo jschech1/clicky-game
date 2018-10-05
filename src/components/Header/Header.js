@@ -5,7 +5,8 @@ const styles ={
         textAlign: "center",
         lineHeight: "150%",
         fontSize: 30,
-        marginTop: 20
+        marginTop: 20,
+        color: "white"
 
     }
 }

@@ -1,11 +1,11 @@
 import React from "react";
-// import Background from "../Images/coding-background.png";
+import Background from "./Images/coding-background.png";
 
 
 
 const styles = {
     wrapper: {
-        background: "#d3d3d3"
+       backgroundImage: `url(${Background})`
     }
 }
 

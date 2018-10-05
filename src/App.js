@@ -30,10 +30,10 @@ class App extends Component {
   }
 
     clickCount = id => {
-      this.state.cards.find((o, i) => {
-        if (o.id === id ) {
-          if (cards[i].count === 0){
-            cards[i].count = cards[i].count + 1;
+      this.state.cards.find((i) => {
+        if (i.id === id ) {
+          if (i.count === 0){
+            i.count = i.count + 1;
             this.setState({score: this.state.score+1}, function(){
               console.log(this.state.score);
             });
@@ -49,7 +49,8 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}><strong>Play The Cool Computer Coding Clicky Game!</strong></Header>
+        <Header score={this.state.score} highscore={this.state.highscore}><strong>Play The Cool Computer Coding Clicky Game!</strong>
+        </Header>
         {this.state.cards.map(card => (
           <Card
             clickCount={this.clickCount}
