@@ -49,7 +49,8 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}><strong>Play The Cool Computer Coding Clicky Game!</strong>
+        <Header score={this.state.score} highscore={this.state.highscore}><h2><strong>Learn my resume while having fun!</strong></h2>
+        <h4>Click on all the programming languages and databases without repeating one or else you lose!</h4>
         </Header>
         {this.state.cards.map(card => (
           <Card
